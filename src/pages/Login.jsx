@@ -77,7 +77,7 @@ const Login = () => {
                                 <div className="grid justify-start">
                                     <h1 className="text-white font-bold text-[27px]">Login</h1>
                                 </div>
-                                <div className="grid gap-2 justify-items-start">
+                                {/* <div className="grid gap-2 justify-items-start">
                                     <label htmlFor="email" className="text-gray-300 font-bold">Email</label>
                                     <input
                                         autoComplete="off"
@@ -89,7 +89,7 @@ const Login = () => {
                                         onChange={(e) => setEmail(e.target.value)}
                                         required
                                     />
-                                </div>
+                                </div> */}
                                 {/* <div className="grid gap-2 justify-items-start">
                                     <label htmlFor="phone" className="text-gray-300 font-bold">Phone</label>
                                     <input
